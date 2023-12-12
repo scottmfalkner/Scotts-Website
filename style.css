@@ -1,45 +1,39 @@
 body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  top: 0;
-  overflow-x: hidden;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center; /* Aligns content vertically center */
+    justify-content: center; /* Aligns content horizontally center */
 }
 
 .left {
-  left: 0;
-  background-color: #111; /* Change as needed */
+    left: 0;
+    background-color: #111; /* Change as needed */
 }
 
 .right {
-  right: 0;
-  background-color: #eee; /* Change as needed */
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    right: 0;
+    background-color: #eee; /* Change as needed */
 }
 
 .button {
-  padding: 16px 30px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 25px;
-  border: none;
-  border-radius: 5px;
-  color: white; /* Adjust color as needed */
-  background-color: #333; /* Adjust background color as needed */
+    padding: 16px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white; /* Adjust color as needed */
+    background-color: #333; /* Adjust background color as needed */
 }
-
-/* Additional styling as needed */
