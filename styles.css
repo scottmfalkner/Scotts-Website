@@ -2,38 +2,38 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    font-family: Arial, sans-serif; /* Example font */
+    background-color: #f4f4f4; /* Example background color */
 }
 
-.split {
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    overflow-x: hidden;
-    display: flex;
-    align-items: center; /* Aligns content vertically center */
-    justify-content: center; /* Aligns content horizontally center */
-}
-
-.left {
-    left: 0;
-    background-color: #f4e4f7; /* Change as needed */
-}
-
-.right {
-    right: 0;
-    background-color: #eee; /* Change as needed */
-}
-
-.button {
-    padding: 16px 30px;
+.products-centered {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products-list {
+    list-style: none;
+    padding: 0;
+}
+
+.products-list li {
+    margin: 10px 0;
+}
+
+.products-list a {
     text-decoration: none;
-    font-size: 25px;
-    border: none;
+    color: #0275d8; /* Example link color */
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid #0275d8; /* Example border */
     border-radius: 5px;
-    color: white; /* Adjust color as needed */
-    background-color: #333; /* Adjust background color as needed */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.products-list a:hover {
+    background-color: #0275d8;
+    color: white;
 }
