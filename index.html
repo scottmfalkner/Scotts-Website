@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Byron Bay Surf Tailpads</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Segment Tracking Code -->
+    <script>
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","screen","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware","register"];analytics.factory=function(e){return function(){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},n=window.analytics||[];n.push([e,t]);var r=n.length-1;return new Promise(function(e,o){n[r].callback=function(t){t?o(t):e()}})}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src="https://cdn.segment.com/analytics.js/v1/"+key+"/analytics.min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);analytics._loadOptions={};analytics.SNIPPET_VERSION="4.13.6";analytics._writeKey=key;analytics._cdn="https://cdn.segment.com";analytics.page()};analytics.load("YOUR_WRITE_KEY");analytics.page()}();
+    </script>
 </head>
 <body>
     <header>
@@ -36,13 +41,14 @@
         <section id="signup">
             <!-- Forms -->
         </section>
-      <!-- Email Signup Section -->
-      <section id="email-signup">
-          <form id="email-form">
-              <input type="email" id="email" placeholder="Enter your email">
-              <button type="submit" id="email-submit">Submit</button>
-          </form>
-      </section>
+
+        <!-- Email Signup Section -->
+        <section id="email-signup">
+            <form id="email-form">
+                <input type="email" id="email" placeholder="Enter your email">
+                <button type="submit" id="email-submit">Submit</button>
+            </form>
+        </section>
     </main>
 
     <footer>
@@ -52,3 +58,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
