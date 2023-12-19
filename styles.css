@@ -101,3 +101,40 @@ body, html {
     background-color: #0275d8;
     color: white;
 }
+/* Styles for the signup form */
+.signup-form {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    text-align: center;
+    width: 300px; /* Adjust as per requirement */
+}
+
+/* Style for input fields and submit button */
+.signup-form input,
+.signup-form button {
+    margin: 10px 0; /* Spacing between fields */
+    padding: 10px;
+    width: 90%; /* Input width */
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 4px;
+}
+
+/* Style for the submit button */
+.signup-form button {display: inline-block;
+  padding: 10px 20px; /* Slightly larger padding */
+  font-size: 1.2em; /* Larger font size */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #f5f5f5;
+  background-color: #f5f5f5; /*
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .signup-form {
+        width: 90%; /* Full width on small screens */
+    }
+}
